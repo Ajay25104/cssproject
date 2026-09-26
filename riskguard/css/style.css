@@ -403,6 +403,8 @@ body {
   height: 175px;
 }
 .showcase-section .group {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
 }
 .showcase-section .group > div:first-child {
@@ -427,6 +429,7 @@ body {
   font-size: .9rem;
   letter-spacing: .08em;
   text-align: center;
+  text-transform: uppercase;
 }
 .showcase-mode-section > div {
   padding: 1.5rem;
